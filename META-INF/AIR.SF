@@ -1,0 +1,557 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: Nz6c1zfArCOStwsBrkLvI8ix0qQ=
+X-Android-APK-Signed: 2
+
+Name: AndroidManifest.xml
+SHA1-Digest: l/S2pL7NQrKTMXdIEom+dMJl3ZM=
+
+Name: assets/Learn/10_1.swf
+SHA1-Digest: GARWKgsysfCu/ehR1r/rYS6XIew=
+
+Name: assets/Learn/10_2.swf
+SHA1-Digest: raxl6dQbwnQA7Nvt68ABMYqsfj0=
+
+Name: assets/Learn/10_3.swf
+SHA1-Digest: Tmu29rIQXPQ3t1M2M6lHudBh8fw=
+
+Name: assets/Learn/11.swf
+SHA1-Digest: EiwMN61NwJpiOOsjTDSrmad0ssc=
+
+Name: assets/Learn/22.swf
+SHA1-Digest: h+veA257AJcTEvEq/pjuoNK+QI0=
+
+Name: assets/Learn/22_v.swf
+SHA1-Digest: EUQQpLzmVceH0gx82xW+Sh7TCrw=
+
+Name: assets/Learn/23.swf
+SHA1-Digest: qXYSBoR7TRFJObkgsW0i2LMG5o0=
+
+Name: assets/Learn/23_v.swf
+SHA1-Digest: tmkpX0it7OOJK4Mgurj3QqtJtc0=
+
+Name: assets/Learn/24.swf
+SHA1-Digest: KL9dI/YA48qDjlfBOQ0S02ILBfA=
+
+Name: assets/Learn/24_v.swf
+SHA1-Digest: CCjVL8yRi6ioh71EfpzWWao1PuU=
+
+Name: assets/Learn/26.swf
+SHA1-Digest: YOwAjmx5aSlrS0m/yATug+OHonQ=
+
+Name: assets/Learn/26_v.swf
+SHA1-Digest: YC2DEb4RsW7enzdSB6ke/sBXQn8=
+
+Name: assets/Learn/27.swf
+SHA1-Digest: 4GzPIv5fYjOFgvW+5VDhO6r89og=
+
+Name: assets/Learn/27_v.swf
+SHA1-Digest: 077+GHjQaV/5wkQ3OoLfs0vjYao=
+
+Name: assets/Learn/28.swf
+SHA1-Digest: +rr87DIvRH6/SJrigZQbHaQ26JE=
+
+Name: assets/Learn/28_v.swf
+SHA1-Digest: TJKlsZS30QGOV4zorjOaa17AiM0=
+
+Name: assets/Learn/30.swf
+SHA1-Digest: h5BcNsTTMCPrwxJcY6NmUKbn48g=
+
+Name: assets/Learn/30_v.swf
+SHA1-Digest: H0uPWIA9i2+gThhFOLKGficJAKI=
+
+Name: assets/Learn/31.swf
+SHA1-Digest: nJ4qcejS+V6gUvW3UG3uXyYjWrU=
+
+Name: assets/Learn/31_v.swf
+SHA1-Digest: tYUTXISq9ka+Gz1c/bmOrwikCvE=
+
+Name: assets/Learn/32.swf
+SHA1-Digest: O7F4rJbRmEnxaRbqpASXa+GzCWk=
+
+Name: assets/Learn/32_v.swf
+SHA1-Digest: P6nYLWPL976/lrkmeH3KCUtoyVo=
+
+Name: assets/Learn/33.swf
+SHA1-Digest: mx0MezZT/fuhs3Krp998ajkq+Ko=
+
+Name: assets/Learn/33_v.swf
+SHA1-Digest: /dL0Tu4ts9rFXE7A3ZuPUkGIGFA=
+
+Name: assets/Learn/34.swf
+SHA1-Digest: yhq9o5oZqxMmu54cCS9FP7sIUQ4=
+
+Name: assets/Learn/34_v.swf
+SHA1-Digest: WfaQpYvtqOAINqUJyFPs8r7u3Vk=
+
+Name: assets/Learn/35.swf
+SHA1-Digest: FpX5lcE4TZI8bSPq8MNd5gwIsSw=
+
+Name: assets/Learn/35_v.swf
+SHA1-Digest: t0+dD2OCFVwbgPRnO0tKqevT39M=
+
+Name: assets/Learn/36.swf
+SHA1-Digest: QS8i5gRM71jW1QfTPrK/Nymm09E=
+
+Name: assets/Learn/36_v.swf
+SHA1-Digest: OOoVhJmDTLxlqjPJox8REeiwepU=
+
+Name: assets/Learn/37.swf
+SHA1-Digest: zo9GaIHYalxvqeqTcN0VyPe0lAU=
+
+Name: assets/Learn/37_v.swf
+SHA1-Digest: Wz+/wJFqIrcO62Xk06z0K9EZftE=
+
+Name: assets/Learn/38.swf
+SHA1-Digest: DiSIYwq9PLdcVb1YlroKpUFQKeE=
+
+Name: assets/Learn/38_v.swf
+SHA1-Digest: XDFANKSeR6i+J2WnqiLrNbVe4s4=
+
+Name: assets/Learn/40.swf
+SHA1-Digest: f2rrUK+3Zn5b9SDXWXBHzL+Ei18=
+
+Name: assets/Learn/40_v.swf
+SHA1-Digest: XJmJqbLgyBMPbfHdcmCbPpmZgRI=
+
+Name: assets/Learn/41.swf
+SHA1-Digest: QtZfi8vfCNJAOyyu+5ATKPcAT8M=
+
+Name: assets/Learn/41_v.swf
+SHA1-Digest: PfeFwYHiWMFjeTp4By+QTMFhyKM=
+
+Name: assets/Learn/42.swf
+SHA1-Digest: dN7rcVyla1BdmOC/IPioCsShjQw=
+
+Name: assets/Learn/42_v.swf
+SHA1-Digest: D8aFrepUBCp7yn4fWq9v+k6sGoI=
+
+Name: assets/Learn/43.swf
+SHA1-Digest: +kc/gDfA77bQgC9/GNz5ax0hKa4=
+
+Name: assets/Learn/43_v.swf
+SHA1-Digest: sGjONIQtNx8TxTUdkjIk3E6CRe0=
+
+Name: assets/Learn/44.swf
+SHA1-Digest: jm2LX72LhUi75b2xLs31kbW10l4=
+
+Name: assets/Learn/44_v.swf
+SHA1-Digest: AeMk4h+4KEUaBQ5x0UUgi1QA2xE=
+
+Name: assets/Learn/45.swf
+SHA1-Digest: EmKuI1ljvNHHkmS2KIT8rvf7q20=
+
+Name: assets/Learn/45_v.swf
+SHA1-Digest: 0RSijqx1xUgW7GLxzuXZIdQ4ldQ=
+
+Name: assets/Learn/46.swf
+SHA1-Digest: wnfxmd4rbj5ArlrXzUjr9Ldq2hA=
+
+Name: assets/Learn/46_v.swf
+SHA1-Digest: gt9u1oGn1doOZ//1gSjmtQm9PxI=
+
+Name: assets/Learn/48.swf
+SHA1-Digest: lpXYZ9uDju+ct3eKalQmG9s86tw=
+
+Name: assets/Learn/48_v.swf
+SHA1-Digest: iibgBjwzuqrltbb5bBaSsR0cXZQ=
+
+Name: assets/Learn/49.swf
+SHA1-Digest: qSEW8VXPdST0S2bs+UxG7KQzRYg=
+
+Name: assets/Learn/49_v.swf
+SHA1-Digest: UewbhgY9R1WscusvM3JP3lP8yvY=
+
+Name: assets/Learn/50.swf
+SHA1-Digest: FlNj8+tXjPl2hpKll/05Px0pXDU=
+
+Name: assets/Learn/50_v.swf
+SHA1-Digest: VtuuSrdm65nM9QQ08ukPrNXKcPQ=
+
+Name: assets/Learn/51.swf
+SHA1-Digest: ZwpxS7qUPGLHEfTwyuTYL4eNB5k=
+
+Name: assets/Learn/51_v.swf
+SHA1-Digest: h24JB/CyuwzyTLb4Y3RyxX5biic=
+
+Name: assets/Learn/52.swf
+SHA1-Digest: wcqCpMA1OrRTovzU8jlssFipt0Q=
+
+Name: assets/Learn/52_v.swf
+SHA1-Digest: 8AoPqJ+063nNaH1SuuZVG/+RCGE=
+
+Name: assets/Learn/53.swf
+SHA1-Digest: hqzQW9T2l5CD6yc3qkXy8LlM15c=
+
+Name: assets/Learn/53_v.swf
+SHA1-Digest: w4CM9YbnwagP50GiQSIul+FyAvw=
+
+Name: assets/Learn/54.swf
+SHA1-Digest: JHM2N6O2z/2BOP3ACtokiPyyVqw=
+
+Name: assets/Learn/54_v.swf
+SHA1-Digest: 9lySBAMufR62XefI/ohPVC2lvC8=
+
+Name: assets/Learn/55.swf
+SHA1-Digest: qY0eYq2VAXk4Dps4WE2M14Siky8=
+
+Name: assets/Learn/55_v.swf
+SHA1-Digest: /5f3Fk0t17Mcqni7g7I3FH/vnH0=
+
+Name: assets/Learn/56.swf
+SHA1-Digest: xlLVlQ/2kY165kkDz4W+naN2Zjo=
+
+Name: assets/Learn/56_v.swf
+SHA1-Digest: Stuc3y7a0iWLHUSMjYWcEdaZjl8=
+
+Name: assets/Learn/57.swf
+SHA1-Digest: K7oSd58HpPo+c+29ZQVHwnVV0yA=
+
+Name: assets/Learn/57_v.swf
+SHA1-Digest: w4XKo0pXRP3GrydRXXvFvlc2+H4=
+
+Name: assets/Learn/58.swf
+SHA1-Digest: VqOjv/qG3K35rk6kdl1jgK9sM00=
+
+Name: assets/Learn/58_v.swf
+SHA1-Digest: xQ1duYNOoNzvTvTafyC//GnD//4=
+
+Name: assets/Learn/5_1.swf
+SHA1-Digest: rF9Q+4ijQa38bKcEYSMlmL4Wm50=
+
+Name: assets/Learn/5_2.swf
+SHA1-Digest: MXN3gUB15jfyUJeU849uocgDsIc=
+
+Name: assets/Learn/60.swf
+SHA1-Digest: 2SpM9PeNNv7u2Y7WnRhIAEBXdrY=
+
+Name: assets/Learn/60_v.swf
+SHA1-Digest: PdSSp2TjaExhcbKNgVFJ5kv90Ec=
+
+Name: assets/Learn/61.swf
+SHA1-Digest: cXt86KGjT8tLzn+HyVanBBcDrIE=
+
+Name: assets/Learn/61_v.swf
+SHA1-Digest: JuIenA4FH11b3AqUncSaLvRDcYo=
+
+Name: assets/Learn/62.swf
+SHA1-Digest: haG9gr0sRAtfj4fBQ+ahPUfkvcg=
+
+Name: assets/Learn/62_v.swf
+SHA1-Digest: Lm0K9svV9DVN9gReAI4GYbGCAUI=
+
+Name: assets/Learn/63.swf
+SHA1-Digest: UCTiwcuF2zQ3A9UhQ00398Xf4Pw=
+
+Name: assets/Learn/63_v.swf
+SHA1-Digest: 3jGtCz8lS1qLjWHWBiReggqwHY8=
+
+Name: assets/Learn/64.swf
+SHA1-Digest: dJ8ovD5DYDeq3Pu/3eWejSrfGcA=
+
+Name: assets/Learn/64_v.swf
+SHA1-Digest: /+jsLzA/7j559SzZXoUrIFYcbp8=
+
+Name: assets/Learn/65 65.swf
+SHA1-Digest: y3tcsiRdTXHWriNMll7/FRC6loE=
+
+Name: assets/Learn/65.swf
+SHA1-Digest: BhVUV9detPxsHu8kIslAIR/ilXk=
+
+Name: assets/Learn/65_v.swf
+SHA1-Digest: psXVt6MrVkE0EeAz7v9RcEOtAyQ=
+
+Name: assets/Learn/66.swf
+SHA1-Digest: v3cPKLdouUbuOnKUXLhjkXG8m1c=
+
+Name: assets/Learn/66_v.swf
+SHA1-Digest: 2ld3gSRNYkdqGltpyWJCz9rGJvI=
+
+Name: assets/Learn/67.swf
+SHA1-Digest: Lc2cAFIvQpWlKCHkCx+ncRizAvM=
+
+Name: assets/Learn/67_v.swf
+SHA1-Digest: h6sD9RtcCbbFlgZPd8LinWDLiNo=
+
+Name: assets/Learn/68.swf
+SHA1-Digest: SsA9Vwos1LQpYWGHjIWzKMGJXSQ=
+
+Name: assets/Learn/68_v.swf
+SHA1-Digest: jeeMMjlXKc0fND/F1P34nFF02yY=
+
+Name: assets/Learn/69.swf
+SHA1-Digest: xNdgIKKoXKLisb6siIPj3P+k5dE=
+
+Name: assets/Learn/69_v.swf
+SHA1-Digest: K2jBSwAaKkAn50nK7BaOvsOQehU=
+
+Name: assets/Learn/6_1.swf
+SHA1-Digest: SXk52atNpOK40M5zX/PHcYIgBEY=
+
+Name: assets/Learn/6_2.swf
+SHA1-Digest: APk38qLDyBD4baZmwvcKI1loyL0=
+
+Name: assets/Learn/6_3.swf
+SHA1-Digest: SJwgE3PMv5pQI3AJCeu+QUuhWG0=
+
+Name: assets/Learn/70.swf
+SHA1-Digest: Boje9P12bQxinw6EhLBUn2BJ5Ng=
+
+Name: assets/Learn/70_v.swf
+SHA1-Digest: BSx3jmO8JhIMhU2jk9ZcERN7/nk=
+
+Name: assets/Learn/71.swf
+SHA1-Digest: DOAoIW6e5XzDS6zOCnr0v4pdy+U=
+
+Name: assets/Learn/71_v.swf
+SHA1-Digest: 0jP3EU+HXjUSm3354VVJqy6xrvA=
+
+Name: assets/Learn/72.swf
+SHA1-Digest: ex183hKGSI1h7ql502Dh6WRGaV4=
+
+Name: assets/Learn/72_v.swf
+SHA1-Digest: b54xjSu7zAzrf6t0hNglAPIx88o=
+
+Name: assets/Learn/73.swf
+SHA1-Digest: gig1EiD1eAp6M36xINK3S+448Ro=
+
+Name: assets/Learn/73_v.swf
+SHA1-Digest: pQybI7YYbUvaOVNxch19t18LpEA=
+
+Name: assets/Learn/74.swf
+SHA1-Digest: petjcaj7Z+s5NI6Ag9H4x2itUdM=
+
+Name: assets/Learn/74_v.swf
+SHA1-Digest: 98gyNPsyxHd8n82ghyNgSt4+phQ=
+
+Name: assets/Learn/76.swf
+SHA1-Digest: vzhsTfgBCGKmkonrkTibLC49eBc=
+
+Name: assets/Learn/76_v.swf
+SHA1-Digest: w9QQUkJ2XoN0FXaSoWpHxZnYdT8=
+
+Name: assets/Learn/77.swf
+SHA1-Digest: u9j8gbOPIvFYTd+c103yjbnNOns=
+
+Name: assets/Learn/77_v.swf
+SHA1-Digest: dvLlVg4nAtPHlOVRxqv5xFK1gyU=
+
+Name: assets/Learn/78.swf
+SHA1-Digest: /b5hios+6ufCUf6WBIqCHuVmjUA=
+
+Name: assets/Learn/78_v.swf
+SHA1-Digest: LZt32PRlVBv5ZBspb7WFybvRJGA=
+
+Name: assets/Learn/79.swf
+SHA1-Digest: qVkvnwyIoktJOxl0jBlMQW2INi4=
+
+Name: assets/Learn/79_v.swf
+SHA1-Digest: zk8IImly9WCOfRAWCIFeh48DXR8=
+
+Name: assets/Learn/7_1.swf
+SHA1-Digest: 9t8zDvVvSiSE5UfoUUH3cd41SiM=
+
+Name: assets/Learn/7_2.swf
+SHA1-Digest: YOvGwk9lvLbnO1/C98mpyKWlXwU=
+
+Name: assets/Learn/80.swf
+SHA1-Digest: n3P4HTIgRRuZZH6H2zaEPRlNLAI=
+
+Name: assets/Learn/80_v.swf
+SHA1-Digest: 83M29z5ebgh6T/eQtesiTp1Vjco=
+
+Name: assets/Learn/81.swf
+SHA1-Digest: RfsBH7EsVQ7NG8fRnHPRHAYfoXs=
+
+Name: assets/Learn/81_v.swf
+SHA1-Digest: F2pxizS0DIds0gfxoZN0PfrnkNY=
+
+Name: assets/Learn/82.swf
+SHA1-Digest: ba2DdD5VJn9+4iD5J8YkQA3EyrA=
+
+Name: assets/Learn/82_v.swf
+SHA1-Digest: paQSiwIK/7tSTmDC9ihACdbXADM=
+
+Name: assets/Learn/83.swf
+SHA1-Digest: MICqgV6emBezl0ibiQcarBQFaqk=
+
+Name: assets/Learn/83_v.swf
+SHA1-Digest: NVo1ahv2ZTb4X3Y9z59cTQjbc7w=
+
+Name: assets/Learn/84.swf
+SHA1-Digest: bosM9Kz747hz5v0+mjxOJvc1qXg=
+
+Name: assets/Learn/84_v.swf
+SHA1-Digest: cBN4pSsNJ4DffTlNNaLRm8r/WD4=
+
+Name: assets/Learn/85.swf
+SHA1-Digest: y2Kzw1W0tVkvrSQxQGc5zSvs3Vs=
+
+Name: assets/Learn/85_v.swf
+SHA1-Digest: o7z+ECktS/zAZQQ4uLm4eEpe6vk=
+
+Name: assets/Learn/8_1.swf
+SHA1-Digest: NslCEA4B7/1rLHJtIU1+OFlO7Fo=
+
+Name: assets/Learn/8_2.swf
+SHA1-Digest: NYfWyxHqMZodM/cb4XL7RsdRGpo=
+
+Name: assets/Learn/8_3.swf
+SHA1-Digest: 8Rc2vMuAbKqWFZvcWmO6ZGPOiEw=
+
+Name: assets/Learn/9_1.swf
+SHA1-Digest: UToxBvk6ItdSBGTlBlsNP1514BM=
+
+Name: assets/Learn/9_2.swf
+SHA1-Digest: sRLZSMjnRda7HZIAT04ef9yHXjE=
+
+Name: assets/Learn/9_3.swf
+SHA1-Digest: kA9l8KMB6ROWmQzsbxlAZ8yGi6k=
+
+Name: assets/Learn/End.swf
+SHA1-Digest: 7Ej9KY+PXwnAINUX7Bz2rkbD6aM=
+
+Name: assets/Learn/Logo.swf
+SHA1-Digest: XkMA6eNpnJtAtRvVFv0smKA5/Sg=
+
+Name: assets/META-INF/AIR/application.xml
+SHA1-Digest: 2wkyi5XxkNbdC3QyIeVlFiaSibc=
+
+Name: assets/Pride.swf
+SHA1-Digest: crVihtgoAyCxoJkLlHtGlJp9gqA=
+
+Name: classes.dex
+SHA1-Digest: jWgPxHz6dI7DwPHxsl20S74VI8Y=
+
+Name: lib/armeabi-v7a/libCore.so
+SHA1-Digest: 3w+est25V6UWvbusqJlZEvkV184=
+
+Name: lib/armeabi-v7a/libc++.so
+SHA1-Digest: 7lEwopcx+r59xuDEkLWgeWGy5yc=
+
+Name: lib/armeabi-v7a/libc++_shared.so
+SHA1-Digest: XB5Ei0HI0oaIzf6G0aiet/YV5C0=
+
+Name: lib/armeabi-v7a/libysshared.so
+SHA1-Digest: jGUz4EoX0c2LrWFQNk35tUUbEBU=
+
+Name: res/drawable-hdpi-v4/home.png
+SHA1-Digest: UVGxK/266NV+p9TbW0VxqeJd3jQ=
+
+Name: res/drawable-nodpi-v4/splash_landscape.png
+SHA1-Digest: xaosa/ndbcW160bRrF3YVUPgwdM=
+
+Name: res/drawable-nodpi-v4/splash_portrait.png
+SHA1-Digest: ObVN+WpwPSLVz638+4dHKtwgBcs=
+
+Name: res/drawable-xhdpi-v4/icon.png
+SHA1-Digest: TUGKyLP/9cOgwaQX/NRJ5LmV/Qc=
+
+Name: res/drawable-xhdpi-v4/ouya_icon.png
+SHA1-Digest: 8REYOiHOXPg7da1WS/N+Tsr66Gk=
+
+Name: res/drawable-xxxhdpi-v4/icon.png
+SHA1-Digest: 74Ei245d80OJ36yBZfvVweU4ek0=
+
+Name: res/drawable/air_72px_mobile_eula.png
+SHA1-Digest: hl9qFtbWmE7IX0Z0yBeGEt8APzE=
+
+Name: res/drawable/ic_adobe_logo.xml
+SHA1-Digest: iMsWTsFwQPCbtens1Lw46pHLx8g=
+
+Name: res/drawable/ic_adobe_logo_1.xml
+SHA1-Digest: N0zH5MFvIuuY6dcdXQbNetFOZK4=
+
+Name: res/drawable/ic_adobe_logo_2.xml
+SHA1-Digest: iRwrmhxXiCaJS48RZv5mAZHXhEU=
+
+Name: res/drawable/ic_adobe_logo_3.xml
+SHA1-Digest: 7Qk4XLqvu9+GWKqnkzm11L3bCtg=
+
+Name: res/drawable/ic_adobe_tm_logo.xml
+SHA1-Digest: /I4WAKlDU9NizYArhlTQHvnJOA8=
+
+Name: res/drawable/ic_harman_logo.xml
+SHA1-Digest: 5jNHlnWALEY6ThXG9/2Pvj6ytkU=
+
+Name: res/drawable/mp_warning_32x32_n.png
+SHA1-Digest: AYeAlZLgIg2apaASwxgKglh876U=
+
+Name: res/drawable/splash_landscape.png
+SHA1-Digest: QyQvEdaPRnNG9QEJgLnDOp7lcT8=
+
+Name: res/drawable/splash_portrait.png
+SHA1-Digest: YFdse/UFXIqnz/VEvWu5aO2TyPE=
+
+Name: res/layout-land-v16/splash_screen_layout.xml
+SHA1-Digest: kmPpZVsGp4faDucpUmX6peXF35M=
+
+Name: res/layout-land/splash_screen_layout.xml
+SHA1-Digest: pd61gsZb7Q57GZ+ubNJOc5JI3GM=
+
+Name: res/layout-v16/splash_screen_layout.xml
+SHA1-Digest: 4xo8Sw1TLcgSE+cGgrxBP+k1yRg=
+
+Name: res/layout/activity_static_page.xml
+SHA1-Digest: fQprtJkcFgS2bur7joV7evYF8oQ=
+
+Name: res/layout/expandable_chooser_row.xml
+SHA1-Digest: pDbSAU3i/MhHM1xHf6rw+smmrb4=
+
+Name: res/layout/expandable_multiple_chooser_row.xml
+SHA1-Digest: 3XvnaImbXmKVzBhpMgMG8J/Xr/0=
+
+Name: res/layout/main.xml
+SHA1-Digest: cZ8kdf8pfu3OPP+Fl3STvd2IUCU=
+
+Name: res/layout/multiple_file_selection_panel.xml
+SHA1-Digest: f8s3GWGgMG9I4A1xO5M5FokWHfo=
+
+Name: res/layout/splash_screen_layout.xml
+SHA1-Digest: JbZ2cA/FbJ2ROuvFTYEb6HGYcKU=
+
+Name: res/layout/ssl_certificate_warning.xml
+SHA1-Digest: X0hLlZhb1Bi1chDOsLE4Degr+to=
+
+Name: res/mipmap-hdpi-v4/icon.png
+SHA1-Digest: 9//QLMR2/716XroZOUIYNp5hVjU=
+
+Name: res/mipmap-ldpi-v4/icon.png
+SHA1-Digest: kBmiDuFIZhglWVvnlqOKt3mH7Bo=
+
+Name: res/mipmap-mdpi-v4/icon.png
+SHA1-Digest: QcPZJuz9xzdO/D3D1WPTGud1Rc4=
+
+Name: res/mipmap-xhdpi-v4/icon.png
+SHA1-Digest: aAgii4nguBqCbjTGnafiMHCyRic=
+
+Name: res/mipmap-xhdpi-v4/ouya_icon.png
+SHA1-Digest: IjuFuOQHHswoMl4lMM/CUttXBfA=
+
+Name: res/mipmap-xxhdpi-v4/icon.png
+SHA1-Digest: dBKAzdkwKCpwE4eKkTWYQtQGCkU=
+
+Name: res/mipmap-xxxhdpi-v4/icon.png
+SHA1-Digest: gfZf0FzMgPnlnxjh0WPNvcsHBfI=
+
+Name: res/raw/adobelogo.gif
+SHA1-Digest: C230O0R3bbZIa6/Fr6jyvOCeYw0=
+
+Name: res/raw/debuginfo
+SHA1-Digest: tDkq9Am9IICKEyUpUxv9SZC2Ido=
+
+Name: res/raw/icon.jpg
+SHA1-Digest: G9PZ8d0KDV+sap99LsRv1invMfk=
+
+Name: res/raw/rgba8888
+SHA1-Digest: Zl1hFYFfIU3ykjjlwvkAPiOpbjU=
+
+Name: res/raw/startga.html
+SHA1-Digest: vtbLpFCE/puG1tIThIFDVjSuAWM=
+
+Name: res/xml/provider_paths.xml
+SHA1-Digest: Qb6sj+/9YIH22LkTovQWVyHe5U4=
+
+Name: resources.arsc
+SHA1-Digest: /hoD9NTP2A/zNl9+Ke+YPFdQKQE=
+
