@@ -1,0 +1,84 @@
+name: Extract Pride and Prejudice Audio
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/extract-audio.yml"
+
+permissions:
+  contents: read
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout assets
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Download FFDec
+        run: |
+          curl -fL \
+            "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version26.4.0/ffdec_26.4.0.zip" \
+            -o "$RUNNER_TEMP/ffdec.zip"
+          mkdir -p "$RUNNER_TEMP/ffdec"
+          unzip -q "$RUNNER_TEMP/ffdec.zip" -d "$RUNNER_TEMP/ffdec"
+          FFDEC_JAR="$(find "$RUNNER_TEMP/ffdec" -name ffdec.jar -print -quit)"
+          test -n "$FFDEC_JAR"
+          echo "FFDEC_JAR=$FFDEC_JAR" >> "$GITHUB_ENV"
+
+      - name: Extract audio from every SWF
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/extracted/audio"
+          mkdir -p "$RUNNER_TEMP/extracted/logs"
+
+          count=0
+          while IFS= read -r -d '' swf; do
+            rel="${swf#"$GITHUB_WORKSPACE"/}"
+            dest="$RUNNER_TEMP/extracted/audio/${rel%.swf}"
+            mkdir -p "$dest"
+
+            echo "Extracting: $rel"
+            java -jar "$FFDEC_JAR" -cli -onerror ignore \
+              -export sound "$dest" "$swf" \
+              > "$RUNNER_TEMP/extracted/logs/${count}.log" 2>&1 || true
+
+            count=$((count + 1))
+          done < <(
+            find "$GITHUB_WORKSPACE" \
+              -path "$GITHUB_WORKSPACE/.git" -prune -o \
+              -type f -iname '*.swf' -print0
+          )
+
+          echo "SWF files processed: $count"
+          echo "SWF_COUNT=$count" >> "$GITHUB_ENV"
+
+          find "$RUNNER_TEMP/extracted/audio" -type f | sort \
+            > "$RUNNER_TEMP/extracted/audio-file-list.txt"
+
+          echo "Extracted audio files: $(wc -l < "$RUNNER_TEMP/extracted/audio-file-list.txt")"
+
+      - name: Package extracted audio
+        if: always()
+        run: |
+          cd "$RUNNER_TEMP/extracted"
+          zip -qr "$RUNNER_TEMP/pride-prejudice-audio.zip" .
+
+      - name: Upload audio archive
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: pride-prejudice-extracted-audio
+          path: ${{ runner.temp }}/pride-prejudice-audio.zip
+          if-no-files-found: warn
+          retention-days: 7
