@@ -1,0 +1,78 @@
+name: Inspect Pride and Prejudice Playback Logic
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 90
+
+    steps:
+      - name: Checkout assets
+        uses: actions/checkout@v4
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: "21"
+
+      - name: Download FFDec
+        run: |
+          curl -fL \
+            "https://github.com/jindrapetrik/jpexs-decompiler/releases/download/version26.4.0/ffdec_26.4.0.zip" \
+            -o "$RUNNER_TEMP/ffdec.zip"
+          mkdir -p "$RUNNER_TEMP/ffdec"
+          unzip -q "$RUNNER_TEMP/ffdec.zip" -d "$RUNNER_TEMP/ffdec"
+          FFDEC_JAR="$(find "$RUNNER_TEMP/ffdec" -name ffdec.jar -print -quit)"
+          test -n "$FFDEC_JAR"
+          echo "FFDEC_JAR=$FFDEC_JAR" >> "$GITHUB_ENV"
+
+      - name: Export playback scripts and SWF tags
+        shell: bash
+        run: |
+          mkdir -p "$RUNNER_TEMP/inspection"
+          count=0
+
+          while IFS= read -r -d '' swf; do
+            rel="${swf#"$GITHUB_WORKSPACE"/}"
+            stem="${rel%.swf}"
+            dest="$RUNNER_TEMP/inspection/$stem"
+            mkdir -p "$dest"
+
+            echo "Inspecting: $rel"
+
+            java -jar "$FFDEC_JAR" -cli -onerror ignore \
+              -export script,text,symbolClass "$dest" "$swf" \
+              > "$dest/export.log" 2>&1 || true
+
+            java -jar "$FFDEC_JAR" -cli -dumpSWF "$swf" \
+              > "$dest/tags.txt" 2>&1 || true
+
+            count=$((count + 1))
+          done < <(
+            find "$GITHUB_WORKSPACE" \
+              -path "$GITHUB_WORKSPACE/.git" -prune -o \
+              -type f -iname '*.swf' -print0
+          )
+
+          echo "SWF files inspected: $count"
+          find "$RUNNER_TEMP/inspection" -type f | sort \
+            > "$RUNNER_TEMP/inspection-file-list.txt"
+
+      - name: Package inspection data
+        run: |
+          cd "$RUNNER_TEMP"
+          zip -qr pride-prejudice-playback-inspection.zip \
+            inspection inspection-file-list.txt
+
+      - name: Upload inspection data
+        uses: actions/upload-artifact@v4
+        with:
+          name: pride-prejudice-playback-inspection
+          path: ${{ runner.temp }}/pride-prejudice-playback-inspection.zip
+          retention-days: 7
